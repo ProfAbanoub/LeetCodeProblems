@@ -27,5 +27,5 @@ class Solution {
         curr.next = new ListNode(carry);
     }
     return nodeHead.next;
-}
+  }
 }
