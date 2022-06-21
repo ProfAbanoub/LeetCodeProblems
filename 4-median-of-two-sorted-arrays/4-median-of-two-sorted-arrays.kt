@@ -22,5 +22,5 @@ class Solution {
             }
         }
         return if (n % 2 == 1) merged[n / 2].toDouble() else (merged[(n - 1) / 2] + merged[n / 2]) / 2.0
-    }
+   }
 }
